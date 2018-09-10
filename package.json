@@ -1,6 +1,9 @@
 {
   "name": "tf-rock-paper-scissors",
   "version": "0.1.0",
+  "description": "Rock, Paper, Scissors with TensorFlow.js",
+  "author": "John Ramey <johnramey@gmail.com> (http://ramhiser.com)",
+  "license": "MIT",
   "private": true,
   "dependencies": {
     "@tensorflow-models/knn-classifier": "^0.2.2",
