@@ -15,23 +15,6 @@ const TOPK = 10;
 
 class App extends Component {
   render() {
-    // Create video element that will contain the webcam image
-    var video = document.createElement('video');
-    video.setAttribute('autoplay', '');
-    video.setAttribute('playsinline', '');
-    document.body.appendChild(video);
-
-     // Setup webcam
-     navigator.mediaDevices.getUserMedia({video: true, audio: false})
-     .then((stream) => {
-       video.srcObject = stream;
-       video.width = 800;
-       video.height = 600;
- 
-       video.addEventListener('playing', ()=> this.videoPlaying = true);
-       video.addEventListener('paused', ()=> this.videoPlaying = false);
-     })
-    
     return (
       <div className="App">
         <header className="App-header">
