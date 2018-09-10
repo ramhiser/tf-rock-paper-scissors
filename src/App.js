@@ -19,10 +19,10 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">My name is AJ Ramey.</h1>
+          <h1 className="App-title">Rock, Paper, Scissors with TensorFlow.js</h1>
         </header>
         <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
+          Rock, Paper, Scissors, 1, 2, 3, Shoot!
         </p>
       </div>
 
@@ -31,27 +31,3 @@ class App extends Component {
 }
 
 export default App;
-
-
-//var knn_classifier = new knnClassifier(NUM_CLASSES, TOPK);
-
-
-
-// Create the classifier.
-// const classifier = knnClassifier.create();
-
-
-// // Add MobileNet activations to the model repeatedly for all classes.
-// const img0 = tf.fromPixels(document.getElementById('class0'));
-// const logits0 = mobilenet.infer(img0, 'conv_preds');
-// classifier.addExample(logits0, 0);
-
-// const img1 = tf.fromPixels(document.getElementById('class1'));
-// const logits1 = mobilenet.infer(img1, 'conv_preds');
-// classifier.addExample(logits1, 1);
-
-// // Make a prediction.
-// const x = tf.fromPixels(document.getElementById('test'));
-// const xlogits = mobilenet.infer(x, 'conv_preds');
-// console.log('Predictions:');
-// console.log(classifier.predictClass(xlogits));
