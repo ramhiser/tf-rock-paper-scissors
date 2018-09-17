@@ -1,11 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import WebcamCapture from "./webcam";
+import Game from './game';
 
 import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<App />, document.getElementById('root'));
-ReactDOM.render(<WebcamCapture />, document.getElementById('webcam'));
+ReactDOM.render(<Game />, document.getElementById('root'));
 registerServiceWorker();
